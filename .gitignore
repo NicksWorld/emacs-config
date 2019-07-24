@@ -1,0 +1,12 @@
+elpa/
+bookmarks
+ac-comphist.dat
+projectile-bookmarks.eld
+themes/
+
+recentf
+
+# Thanks emacs
+*~
+\#*\#
+.\#*
