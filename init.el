@@ -20,6 +20,7 @@
 (load "~/.emacs.d/emacs-acronyms")
 (require 'dashboard)
 (dashboard-setup-startup-hook)
+(setq initial-buffer-choice (lambda () (get-buffer "*dashboard*")))
 (setq dashboard-banner-logo-title
       (concat "Welcome to Emacs ("
 	      (concat (emacs-random-acronym) ")!")))
